@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #ececec;
+}
+
+/*------------ Login container ------------*/
+
+.box-area {
+  width: 930px;
+}
+
+/*------------ Right box ------------*/
+
+#rightbox {
+  padding: 40px;
+
+}
+
+/*------------ Custom Placeholder ------------*/
+
+::placeholder {
+  font-size: 16px;
+}
+
+.rounded-4 {
+  border-radius: 20px;
+}
+.rounded-5 {
+  border-radius: 30px;
+}
+
+.fa-solid {
+  font-size: 24px;
+  color: #2f2f2f;
+}
+
+#signup-options {
+  display: block;
+}
+
+.sign-upform {
+  display: none;
+}
+
+#xtra-details::before{
+  display:none !important;
+}
+/*------------ For small screens------------*/
+
+@media only screen and (max-width: 375px) {
+    .box-area {
+      margin: 0 10px;
+    }
+    .left-box {
+      height: 100px;
+      overflow: hidden;
+    }
+    #rightbox {
+      padding: 0;
+    }
+  }
+
+  
+@media only screen and (max-width: 375px) {
+    .box-area {
+      margin: 0 10px;
+    }
+    .left-box {
+      height: 100px;
+      overflow: hidden;
+    }
+    #rightbox {
+      padding: 0;
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+    .box-area {
+      margin: 0 10px;
+    }
+    .left-box {
+      height: 100px;
+      overflow: hidden;
+    }
+    #rightbox {
+      padding: 0;
+    }
+  }
+
+  
+@media only screen and (max-width: 768px) {
+  .box-area {
+    margin: 0 10px;
+  }
+  .left-box {
+    height: 100px;
+    overflow: hidden;
+  }
+  #rightbox {
+    padding: 0;
+  }
+}
+

@@ -1,0 +1,78 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Arimo:wght@600&family=Comic+Neue&family=Imprima&family=Poppins&family=Roboto&family=Sora:wght@800&family=Yatra+One&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@600&family=Comic+Neue&family=Imprima&family=Poppins&family=Roboto&family=Rubik:wght@300&family=Sora:wght@800&family=Yatra+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nova+Round&display=swap");
+
+@font-face {
+  font-family: production;
+  src: url("../../assets/fonts/production.ttf");
+}
+
+
+.top-nav .container {
+    border: 1px solid #2f2f2f;
+    border-radius: 1rem;
+  }
+  
+  .top-nav-title {
+    color: #2f2f2f;
+    font-family: "production";
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+  }
+  
+  .top-nav-title span {
+    font-family: "Agency FB";
+    font-weight: 700;
+    font-size: 1.3rem;
+  }
+  
+  .reg-btn {
+    text-decoration: none;
+    display: flex;
+    padding: 0.5rem 1rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.85rem;
+    background: #2f2f2f;
+    color: #fff;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  form i {
+    margin-left: -30px;
+    cursor: pointer;
+}
+  
+@media (min-width: 320px) and (max-width: 576px){
+  .psg-logo{
+    width:18px !important;
+    height:24px !important;
+  }
+  .ieee-logo{
+    width:24px !important;
+    height:24px !important;
+  }
+  .ieeesc-logo{
+    width:24px !important;
+    height:26px !important;
+  }
+
+  .top-nav-title{
+    font-size: 0.5rem !important;
+
+  }
+  .top-nav-title span {
+    font-size: 0.5rem !important;
+  }
+
+  .reg-btn {
+    padding: 0.4rem 0.75rem;
+    font-size: 0.5rem;
+  }
+}

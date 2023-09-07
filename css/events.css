@@ -1,0 +1,13 @@
+body{
+  background: lightgrey;
+}
+
+.card{
+  width: 400px;
+  height: 370px;
+  margin: 30px auto;
+}
+.scrollable{
+  overflow-y: auto;
+  max-height: 300px;
+}

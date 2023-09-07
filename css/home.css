@@ -1,0 +1,512 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Arimo:wght@600&family=Comic+Neue&family=Imprima&family=Poppins&family=Roboto&family=Sora:wght@800&family=Yatra+One&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@600&family=Comic+Neue&family=Imprima&family=Poppins&family=Roboto&family=Rubik:wght@300&family=Sora:wght@800&family=Yatra+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nova+Round&display=swap");
+
+@font-face {
+  font-family: production;
+  src: url("../assets/fonts/production.ttf");
+}
+
+@font-face {
+  font-family: Aquatico;
+  src: url("../assets/fonts/Aquatico-Regular.otf");
+}
+
+@font-face {
+  font-family: Flare;
+  src: url("../assets/fonts/Flare-Regular.otf");
+}
+
+@font-face {
+  font-family: AquireBold;
+  src: url("../assets/fonts/AquireBold.otf");
+}
+
+@font-face {
+  font-family: MonumentExtended;
+  src: url("../assets/fonts/MonumentExtended-Regular.otf");
+}
+
+@font-face {
+  font-family: Agency FB;
+  src: url("../assets/fonts/AgencyFB-Bold.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.navbar > .container {
+  width: 12rem !important;
+  border: 2px solid #2f2f2f;
+  border-radius: 2rem;
+  z-index: 1;
+}
+
+.navbar-toggler-icon {
+  background-image: none !important;
+}
+
+.offcanvas {
+  width: 24rem !important;
+  height: 32rem !important;
+  /* margin: 0px auto !important; */
+  margin-bottom: 6rem !important;
+  border-radius: 3rem 10rem 3rem 10rem !important;
+}
+
+.btn-close {
+  position: absolute;
+  background-color: white !important;
+  border-radius: 50% !important;
+  width: 2rem !important;
+  height: 2rem !important;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.offcanvas-body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  /* margin: auto; */
+  justify-content: center;
+}
+
+.nav-item img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.item {
+  text-decoration: none;
+  color: black;
+}
+
+.top-nav .container {
+  border: 1px solid #2f2f2f;
+  border-radius: 1rem;
+}
+
+.top-nav-title {
+  color: #2f2f2f;
+  font-family: "production";
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.top-nav-title span {
+  font-family: "Agency FB";
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.reg-btn {
+  text-decoration: none;
+  display: flex;
+  padding: 0.5rem 1rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  background: #2f2f2f;
+  color: #fff;
+  font-size: 1.15rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.hero {
+  width: 100%;
+  height: 100%;
+}
+
+#hero-container {
+  margin: auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  align-content: center;
+  border-radius: 2rem;
+  border: 2px solid #c7c7c7;
+  overflow: hidden;
+  height: auto;
+}
+
+.wrapper > svg {
+  font-family: "MonumentExtended", sans-serif;
+  width: 100%;
+  height: auto;
+}
+
+.wrapper > svg text {
+  animation: stroke 5s;
+  stroke-width: 2;
+  stroke: #495057;
+  font-size: 100%;
+  /* letter-spacing:0.5rem; */
+}
+
+@keyframes stroke {
+  0% {
+    fill: rgba(206, 212, 218, 0);
+    stroke: rgba(173, 181, 189, 1);
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 50%;
+    stroke-width: 2;
+  }
+  70% {
+    fill: rgba(206, 212, 218, 0);
+    stroke: rgba(173, 181, 189, 1);
+  }
+  80% {
+    fill: rgba(206, 212, 218, 0);
+    stroke: rgba(173, 181, 189, 1);
+    stroke-width: 3;
+  }
+  100% {
+    fill: rgba(206, 212, 218, 1);
+    stroke: rgba(173, 181, 189, 0);
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 50% 0;
+    stroke-width: 0;
+  }
+}
+
+.sub {
+  font-family: "Imprima";
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: white;
+}
+
+.cta-btn {
+  text-decoration: none;
+  padding: 0.5rem 1.5rem;
+  border: 2px solid #c7c7c7;
+  border-radius: 1rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.nav-link {
+  font-family: "Sora" !important;
+}
+
+.item {
+  font-family: "Poppins" !important;
+  font-weight: 400 !important;
+}
+.about {
+  margin: 10vh 0 0 0;
+}
+.abt-mask {
+  width: auto;
+  height: 500px;
+  background-image: url("../assets/images/psg.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-mask-image: url("../assets/images/abt-maskbg.svg");
+  -webkit-mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  box-shadow: 15px 10px 132px -82px rgba(0, 0, 0, 1) inset;
+  -webkit-box-shadow: 15px 10px 132px -82px rgba(0, 0, 0, 1) inset;
+  -moz-box-shadow: 15px 10px 132px -82px rgba(0, 0, 0, 1) inset;
+}
+
+.abt-title {
+  font-family: "AquireBold";
+}
+
+.abt-title span {
+  font-family: "production";
+}
+
+.abt-title span span {
+  font-family: "Agency FB";
+}
+
+.about .about-desc {
+  font-family: "Rubik";
+  font-weight: 400;
+}
+
+.section-title {
+  font-family: "AquireBold";
+}
+
+#events-deck {
+  background-image: url("../assets/images/abt-maskbg.svg");
+}
+
+.events .card {
+  width: 12rem;
+  padding: 0.5rem 0.25rem;
+  border: 2px solid #2f2f2f;
+  border-radius: 2rem;
+}
+
+.events .card-title {
+  text-align: center;
+  margin: 0.25rem;
+  font-size: 14px;
+}
+
+/* Mobile Screen */
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .navbar {
+    width: 18rem;
+    border-radius: 1.5rem;
+    justify-content: center;
+    margin: 0px auto;
+  }
+
+  .navbar > .container {
+    align-items: center;
+    vertical-align: center;
+  }
+
+  .navbar-brand img {
+    width: 24px;
+    height: 28px;
+  }
+
+  .navbar-brand p {
+    font-size: 14px;
+    padding: 5px 0px;
+  }
+
+  .offcanvas {
+    width: 20rem;
+    margin: 0px auto;
+    border-radius: 1.5rem;
+  }
+
+  .logos {
+    width: 50px;
+  }
+
+  .top-nav {
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    width: 100%;
+  }
+
+  .top-nav-title {
+    font-size: 10px;
+  }
+
+  .top-nav-title span {
+    font-size: 10px;
+  }
+
+  .psg-logo {
+    width: auto;
+    height: 22px;
+  }
+
+  .ieee-logo {
+    width: auto;
+    height: 20px;
+  }
+
+  .ieeesc-logo {
+    width: auto;
+    height: 20px;
+  }
+
+  .reg-btn {
+    font-size: 0.6rem;
+  }
+
+  .wrapper > svg text {
+    animation: stroke 4s infinite alternate;
+    stroke-width: 2;
+    stroke: #495057;
+    font-size: 9vw !important;
+  }
+
+  .hero-title {
+    /* position: absolute;
+    top: 35%;
+    left: 12%; */
+    font-family: "Yatra One";
+    font-size: 2rem;
+    font-weight: 600;
+    color: #c7c7c7;
+    text-align: center;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+  .navbar {
+    width: 20rem;
+    border-radius: 1.5rem;
+    justify-content: center;
+    margin: 0px auto;
+  }
+
+  .navbar > .container {
+    align-items: center;
+    vertical-align: center;
+  }
+
+  .navbar-brand img {
+    width: 24px;
+    height: 28px;
+  }
+
+  .navbar-brand p {
+    font-size: 16px;
+    padding: 8px 0px;
+  }
+
+  .offcanvas {
+    width: 20rem;
+    margin: 0px auto;
+    border-radius: 1.5rem;
+  }
+  .wrapper > svg text {
+    animation: stroke 4s infinite alternate;
+    stroke-width: 2;
+    stroke: #495057;
+    font-size: 7vw !important;
+    letter-spacing: 0.5rem;
+  }
+
+  .hero-title {
+    /* position: absolute;
+    top: 35%;
+    left: 18%; */
+    font-family: "Yatra One";
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #c7c7c7;
+    text-align: center;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .navbar {
+    width: 20rem;
+    border-radius: 1.5rem;
+    justify-content: center;
+    margin: 0px auto;
+  }
+
+  .navbar > .container {
+    align-items: center;
+    vertical-align: center;
+  }
+
+  .navbar-brand img {
+    width: 24px;
+    height: 28px;
+  }
+
+  .navbar-brand p {
+    font-size: 24px;
+    padding: 0px;
+  }
+
+  .offcanvas {
+    width: 20rem;
+    margin: 0px auto;
+    border-radius: 1.5rem;
+  }
+
+  .navbar-brand p {
+    font-size: 14px;
+    padding: 6px 0px;
+  }
+
+  .wrapper > svg text {
+    animation: stroke 4s infinite alternate;
+    stroke-width: 2;
+    stroke: #495057;
+    font-size: 8vw !important;
+  }
+
+  .hero-title {
+    /* position: absolute;
+    top: 35%;
+    left: 16%; */
+    font-family: "Yatra One";
+    font-size: 2rem;
+    font-weight: 600;
+    color: #c7c7c7;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .navbar {
+    width: 30rem;
+    border-radius: 1.5rem;
+    justify-content: center;
+    margin: 0px auto;
+  }
+
+  .navbar > .container {
+    align-items: center;
+    vertical-align: center;
+  }
+
+  .navbar-brand img {
+    width: 24px;
+    height: 28px;
+  }
+
+  .navbar-brand p {
+    font-size: 18px;
+    padding: 6px 0px;
+  }
+
+  .sub {
+    width: 80%;
+    height: auto;
+  }
+
+  .offcanvas {
+    width: 30rem;
+    margin: 0px auto;
+    border-radius: 1.5rem;
+  }
+
+  .wrapper > svg text {
+    animation: stroke 5s infinite alternate;
+    stroke-width: 2;
+    stroke: #495057;
+    font-size: 8vw !important;
+    letter-spacing: 0.5rem;
+    overflow: hidden;
+  }
+
+  .hero-title {
+    font-family: "Yatra One";
+    font-size: 3rem;
+    font-weight: 600;
+    color: #c7c7c7;
+    text-align: center;
+  }
+}
